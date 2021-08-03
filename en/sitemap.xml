@@ -2,361 +2,361 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>/en/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/categories/"
                 />
-  </url><url>
-    <loc>/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/css/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/categories/"
+                />
+  </url><url>
+    <loc>/en/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/css/"
                 />
-  </url><url>
-    <loc>/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/html/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/css/"
+                />
+  </url><url>
+    <loc>/en/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/html/"
                 />
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/html/"
+                />
+  </url><url>
+    <loc>/en/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/"
                 />
-  </url><url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/markdown/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/"
+                />
+  </url><url>
+    <loc>/en/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/markdown/"
                 />
-  </url><url>
-    <loc>/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/markdown-syntax/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/markdown/"
+                />
+  </url><url>
+    <loc>/en/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/markdown-syntax/"
                 />
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/markdown-syntax/"
+                />
+  </url><url>
+    <loc>/en/posts/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/"
                 />
-  </url><url>
-    <loc>/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/series/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/"
+                />
+  </url><url>
+    <loc>/en/series/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/series/"
                 />
-  </url><url>
-    <loc>/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/series/"
+                />
+  </url><url>
+    <loc>/en/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/"
                 />
-  </url><url>
-    <loc>/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/privacy/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/"
+                />
+  </url><url>
+    <loc>/en/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/en/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/privacy/"
                 />
-  </url><url>
-    <loc>/posts/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/rich-content/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/privacy/"
+                />
+  </url><url>
+    <loc>/en/posts/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/rich-content/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/rich-content/"
+                />
   </url><url>
-    <loc>/tags/shortcodes/</loc>
+    <loc>/en/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/shortcodes/"
                 />
-  </url><url>
-    <loc>/posts/more-rich-content/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/more-rich-content/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/shortcodes/"
+                />
+  </url><url>
+    <loc>/en/posts/more-rich-content/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/more-rich-content/"
                 />
-  </url><url>
-    <loc>/posts/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/placeholder-text/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/more-rich-content/"
+                />
+  </url><url>
+    <loc>/en/posts/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/placeholder-text/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/placeholder-text/"
+                />
   </url><url>
-    <loc>/tags/text/</loc>
+    <loc>/en/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/text/"
+                hreflang="es"
+                href="/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/text/"
+                href="/en/tags/text/"
                 />
   </url><url>
-    <loc>/posts/math-typesetting/</loc>
+    <loc>/en/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/posts/math-typesetting/"
                 />
-  </url><url>
-    <loc>/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/emoji/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/math-typesetting/"
+                />
+  </url><url>
+    <loc>/en/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/emoji/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/emoji/"
+                />
   </url><url>
-    <loc>/posts/emoji-support/</loc>
+    <loc>/en/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/posts/emoji-support/"
                 />
-  </url><url>
-    <loc>/categories/development/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/categories/development/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/emoji-support/"
+                />
+  </url><url>
+    <loc>/en/categories/development/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/categories/development/"
                 />
-  </url><url>
-    <loc>/tags/development/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/development/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/categories/development/"
+                />
+  </url><url>
+    <loc>/en/tags/development/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/development/"
                 />
-  </url><url>
-    <loc>/posts/hugo-coder-wiki/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/posts/hugo-coder-wiki/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/tags/development/"
+                />
+  </url><url>
+    <loc>/en/posts/hugo-coder-wiki/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/posts/hugo-coder-wiki/"
                 />
-  </url><url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/hugo/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/posts/hugo-coder-wiki/"
+                />
+  </url><url>
+    <loc>/en/tags/hugo/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/tags/hugo/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/hugo/"
+                />
   </url><url>
-    <loc>/tags/themes/</loc>
+    <loc>/en/tags/themes/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/tags/themes/"
+                hreflang="es"
+                href="/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/themes/"
+                href="/en/tags/themes/"
                 />
   </url><url>
-    <loc>/about/</loc>
+    <loc>/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/about/"
                 />
-  </url><url>
-    <loc>/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/authors/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/about/"
+                />
+  </url><url>
+    <loc>/en/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/authors/"
                 />
-  </url><url>
-    <loc>/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-co"
-                href="/es-co/contact/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/authors/"
+                />
+  </url><url>
+    <loc>/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
                 href="/contact/"
                 />
-  </url><url>
-    <loc>/projects/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-co"
-                href="/es-co/proyectos/"
+                hreflang="en"
+                href="/en/contact/"
+                />
+  </url><url>
+    <loc>/en/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/projects/"
+                href="/en/projects/"
                 />
   </url>
 </urlset>
