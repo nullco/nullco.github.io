@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Juan Sebastian Quintero</title>
+    <link>/es-co/categories/</link>
+    <description>Recent content in Categories on Juan Sebastian Quintero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/es-co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sintaxe</title>
+      <link>/es-co/categories/sintaxe/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/es-co/categories/sintaxe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>temas</title>
+      <link>/es-co/categories/temas/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/es-co/categories/temas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/es-co/categories/development/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/es-co/categories/development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
