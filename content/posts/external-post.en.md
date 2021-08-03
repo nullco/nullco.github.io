@@ -1,7 +1,7 @@
 +++
 author = "Hugo Authors"
 date = "2019-03-04"
-title = "Página Externa: Wiki Hugo Coder"
+title = "External Page: Hugo Coder Wiki"
 slug = "hugo-coder-wiki"
 tags = [
     "hugo",

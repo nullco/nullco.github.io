@@ -1,43 +1,43 @@
 +++
 author = "Hugo Authors"
-title = "Mais Conteúdo Rico"
+title = "More Rich Content"
 date = "2019-03-09"
-description = "Uma breve descrição sobre Shortcodes customizados do Hugo Coder"
+description = "A brief description about Hugo Coder's Custom Shortcodes"
 tags = [
     "shortcodes"
 ]
 +++
 
-O Hugo Coder proporciona alguns Shortcodes Customizados.
+Hugo Coder provides some Custom Shortcodes.
 <!--more-->
 ---
 
 ## Shortcodes Avisos
 
 {{< notice note >}}
-Uma nota aqui.
+One note here.
 {{< /notice >}}
 
 {{< notice tip >}}
-Estou lhe dando uma dica.
+I'm giving a tip about something.
 {{< /notice >}}
 
 {{< notice example >}}
-Isso é um exemplo.
+This is an example.
 {{< /notice >}}
 
 {{< notice question >}}
-Isso é um pergunta?
+Is this a question?
 {{< /notice >}}
 
 {{< notice info >}}
-Note que essa caixa contém informações.
+Notice that this box contain information.
 {{< /notice >}}
 
 {{< notice warning >}}
-Este é o último aviso!
+This is the last warning!
 {{< /notice >}}
 
 {{< notice error >}}
-Há um erro no seu código.
+There is an error in your code.
 {{< /notice >}}

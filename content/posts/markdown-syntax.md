@@ -1,27 +1,27 @@
 +++
 author = "Hugo Authors"
-title = "Markdown Syntax Guide"
+title = "Guia de Sintaxe Markdown"
 date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description = "Artigo de exemplo mostrando a sintaxe básica Markdown e a formatação de elementos HTML."
 tags = [
     "markdown",
     "css",
     "html",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "temas",
+    "sintaxe",
 ]
-series = ["Themes Guide"]
+series = ["Guia do Thema"]
 aliases = ["migrate-from-jekyl"]
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.
 <!--more-->
 
-## Headings
+## Cabeçalhos
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Os seguintes elementos HTML `<h1>`—`<h6>` representam 6 níveis de cabeçalhos de seção. `<h1>` é para seções de nível mais alto enquanto `<h6>` é para o nível mais baixo.
 
 # H1
 ## H2
@@ -30,119 +30,120 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ##### H5
 ###### H6
 
-## Paragraph
+## Parágrafo
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Blockquotes
+## Citações
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+O elemento de citações representa um conteúdo citado de outra origem, opcionalmente com atribuição que deve estar contida em um elemento `footer` ou `cite`, e também opcionalmente com informações in-line como anotações e abreviações.
 
-#### Blockquote without attribution
+#### Citações sem atribuição
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use *Markdown syntax* within a blockquote.
 
-#### Blockquote with attribution
+#### Citações com atribuição
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> Não comunique compartilhando memória, compartilhe memória comunicando.<br>
 > — <cite>Rob Pike[^1]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: A citação acima foi extraída da [apresentação](https://www.youtube.com/watch?v=PAAkCSZUG1c) do Rob Pike durante a Gopherfest, de 18 de Novembro de 2015.
 
-## Tables
+## Tabelas
 
-Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.
+Tabelas não fazem parte do cerne da especificação do Markdown, mas o Hugo oferece suporte a elas.
 
-   Name | Age
---------|------
+   Nome | Idade
+--------|-------
     Bob | 27
   Alice | 23
 
-#### Inline Markdown within tables
+#### Tabelas com Markdown inline
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
 
-## Code Blocks
+## Blocos de código
 
-#### Code block with backticks
+#### Blocos de código com crase
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
+  <title>Exemplo de Documento HTML5</title>
 </head>
 <body>
-  <p>Test</p>
+  <p>Teste</p>
 </body>
 </html>
 ```
 
-#### Code block indented with four spaces
+#### Blocos de código com quatro espaços
 
     <!doctype html>
-    <html lang="en">
+    <html lang="pt-br">
     <head>
       <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
+      <title>Exemplo de Documento HTML5</title>
     </head>
     <body>
-      <p>Test</p>
+      <p>Teste</p>
     </body>
     </html>
 
-#### Code block with Hugo's internal highlight shortcode
+#### Blocos de código com highlight shortcode interno do Hugo
+
 {{< highlight html >}}
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
+  <title>Exemplo de Documento HTML5</title>
 </head>
 <body>
-  <p>Test</p>
+  <p>Teste</p>
 </body>
 </html>
 {{< /highlight >}}
 
-## List Types
+## Tipos de Listas
 
-#### Ordered List
+#### Listas Ordenada
 
-1. First item
-2. Second item
-3. Third item
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 
-#### Unordered List
+#### Listas não Ordenada
 
-* List item
-* Another item
-* And another item
+* Um item
+* Outro item
+* Algum outro item
 
-#### Nested list
+#### Listas aninhadas
 
-* Fruit
-  * Apple
-  * Orange
+* Frutas
+  * Maçã
+  * Laranja
   * Banana
-* Dairy
-  * Milk
-  * Cheese
+* Laticínios
+  * Leite
+  * Queijo
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Outros Elementos — abbr, sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> é um formato de imagem bitmap.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+Aperte <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> para fechar.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+A maioria das <mark>salamandras</mark> são noturnas e caçam insetos, vermes, e outras criaturas pequenas.

@@ -1,19 +1,19 @@
 ---
 author: Hugo Authors
-title: Math Typesetting
+title: Configuração de Equações Matemáticas
 date: 2019-03-08
-description: A brief guide to setup KaTeX
+description: Um guia rápido sobre utilizar KaTeX
 math: true
 ---
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/)
+Nesse exemplo usaremos o [KaTeX](https://katex.org/).
 
-- Create a partial under `/layouts/partials/math.html`
-- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
-- Include the partial in your templates like so:
+- Crie um partial template em `/layouts/partials/math.html`
+- Dentro, utilize o [Auto-render Extension](https://katex.org/docs/autorender.html) ou sirva os scripts localmente.
+- Inclua o partial nos seus templates da seguinte forma:
 
 ```bash
 {{ if or .Params.math .Site.Params.math }}
@@ -21,10 +21,10 @@ In this example we will be using [KaTeX](https://katex.org/)
 {{ end }}
 ```
 
-- To enable KaTex globally set the parameter `math` to `true` in a project's configuration
-- To enable KaTex on a per page basis include the parameter `math: true` in content files
+- Para ativar o KaTex globalmente defina o parâmetro `math` como `true` na confgiuração do projeto
+- Para ativar o KaTex em páginas específicas inclua o parâmetro `math: true` nos arquivos de conteúdo
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
+**Nota:** Use a referência online [Supported TeX Functions](https://katex.org/docs/supported.html) como base para criar notações matemáticas.
 
 {{< math.inline >}}
 {{ if or .Page.Params.math .Site.Params.math }}
@@ -39,11 +39,11 @@ In this example we will be using [KaTeX](https://katex.org/)
 
 {{< math.inline >}}
 <p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+Notação inline: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
 </p>
 {{</ math.inline >}}
 
-Block math:
+Notação em bloco:
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$

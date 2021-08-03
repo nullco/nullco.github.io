@@ -2,7 +2,7 @@ baseURL = "/"
 title = "Juan Sebastian Quintero"
 theme = "hugo-coder"
 languageCode = "en"
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
 paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
@@ -146,33 +146,33 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.es-co]
+[languages.es]
 languageName = ":colombia:"
 title = "Juan Sebastian Quintero"
 
-[languages.es-co.params]
+[languages.es.params]
 author = "Juan Sebastian Quintero"
 info = "Software Developer"
 description = "Sitio peronal de Juan Sebastian Quintero"
 keywords = "blog,desenvolvedor,pessoal"
 footerContent = "Todos los derechos reservados"
 
-[[languages.es-co.menu.main]]
+[[languages.es.menu.main]]
 name = "Acerca de"
 weight = 1
 url = "about/"
 
-[[languages.es-co.menu.main]]
+[[languages.es.menu.main]]
 name = "Blog"
 weight = 2
 url = "posts/"
 
-[[languages.es-co.menu.main]]
+[[languages.es.menu.main]]
 name = "Proyectos"
 weight = 3
 url = "projects/"
 
-[[languages.es-co.menu.main]]
+[[languages.es.menu.main]]
 name = "Contacto"
 weight = 5
 url = "contact/"

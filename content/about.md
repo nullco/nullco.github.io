@@ -6,9 +6,9 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.
 
-Hugo makes use of a variety of open source projects including:
+O Hugo faz o uso de vários projetos de código aberto incluíndo:
 
 * https://github.com/yuin/goldmark
 * https://github.com/alecthomas/chroma
@@ -16,10 +16,10 @@ Hugo makes use of a variety of open source projects including:
 * https://github.com/spf13/cobra
 * https://github.com/spf13/viper
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+O Hugo é ideal para blogs, sites corporativos, protfólio criativos, revistas online, aplicações de página única ou até sites com milhares de páginas.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+O Hugo é para pessoas que querem cuidar do seu próprio site sem se preocupar com a configuração ambientes complicados, dependências e bancos de dados.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+Sites contru;idos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluíndo AWS, GitHub Pages, Heroku, Netlify e outros provedores de hospedagem.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Saiba mais e contribua em [GitHub](https://github.com/gohugoio).

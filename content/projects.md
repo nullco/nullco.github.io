@@ -1,6 +1,6 @@
 +++
-title = "Projects"
+title = "Proyectos"
 slug = "projects"
 +++
 
-Nothing to see here... Move along!
+Por ahora nada que mostrar aqui, vuelve luego

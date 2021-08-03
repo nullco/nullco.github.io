@@ -1,6 +1,6 @@
 +++
-title = "Contact"
+title = "Contato"
 slug = "contact"
 +++
 
-Follow me, @nullco.
+Sigueme en twitter, @nullco.
