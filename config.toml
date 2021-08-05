@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "es"
 paginate = 20
-pygmentsStyle = "bw"
+pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
@@ -18,7 +18,7 @@ keywords = "blog,developer,personal"
 info = ["Software Developer"]
 avatarURL = "images/avatar.png"
 #gravatar = "john.doe@example.com"
-footerContent = "All rights reserved"
+footerContent = ""
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = false
@@ -127,7 +127,7 @@ url = "https://www.linkedin.com/in/jsquinteroa/"
 languageName = ":us:"
 
 [[languages.en.menu.main]]
-name = "About"
+name = "Intro"
 weight = 1
 url = "about/"
 
@@ -154,11 +154,11 @@ title = "Juan Sebastian Quintero"
 author = "Juan Sebastian Quintero"
 info = "Software Developer"
 description = "Sitio peronal de Juan Sebastian Quintero"
-keywords = "blog,desenvolvedor,pessoal"
-footerContent = "Todos los derechos reservados"
+keywords = "blog,desarrollo,software,personal"
+footerContent = ""
 
 [[languages.es.menu.main]]
-name = "Acerca de"
+name = "Intro"
 weight = 1
 url = "about/"
 

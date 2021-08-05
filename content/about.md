@@ -1,25 +1,11 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "Intro"
+description = "Una descripcion corta de Juan Sebastian Quintero"
+date = "2021-08-05"
+aliases = ["about-us", "about", "contact"]
+author = "Juan Sebastian Quintero"
 +++
-
-Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.
-
-O Hugo faz o uso de vários projetos de código aberto incluíndo:
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-O Hugo é ideal para blogs, sites corporativos, protfólio criativos, revistas online, aplicações de página única ou até sites com milhares de páginas.
-
-O Hugo é para pessoas que querem cuidar do seu próprio site sem se preocupar com a configuração ambientes complicados, dependências e bancos de dados.
-
-Sites contru;idos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluíndo AWS, GitHub Pages, Heroku, Netlify e outros provedores de hospedagem.
-
-Saiba mais e contribua em [GitHub](https://github.com/gohugoio).
+```python
+print("hola mundo 👋")
+```
+Me llamo Juan y vengo trabajando en desarrollo de software por algun tiempo en diferentes stacks sobretodo en el area de backend. He decidido abrir este blog para compartir opiniones, experiencias y aprendizajes que vaya teniendo a lo largo de mi carrera. Siento que escribir sobre todas esas cosas que vaya aprendiendo me ayudara a afianzar aun mas mis conceptos, y de paso a lo mejor y le ayudo a alguien mas a aclarar los suyos :smiley:
