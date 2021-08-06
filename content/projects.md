@@ -3,4 +3,4 @@ title = "Proyectos"
 slug = "projects"
 +++
 
-Por ahora nada que mostrar aqui, vuelve luego
+No hay nada por aquí ahora :stuck_out_tongue: vuelve luego

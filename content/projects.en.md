@@ -3,4 +3,4 @@ title = "Projects"
 slug = "projects"
 +++
 
-Nothing to see here... Move along!
+Nothing here yet :stuck_out_tongue: come back later

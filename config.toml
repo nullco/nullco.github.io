@@ -124,7 +124,7 @@ weight = 4
 url = "https://www.linkedin.com/in/jsquinteroa/"
 
 [languages.en]
-languageName = ":us:"
+languageName = ":uk:"
 
 [[languages.en.menu.main]]
 name = "Intro"
@@ -136,10 +136,10 @@ name = "Blog"
 weight = 2
 url = "posts/"
 
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
+# [[languages.en.menu.main]]
+# name = "Projects"
+# weight = 3
+# url = "projects/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
@@ -147,11 +147,11 @@ weight = 5
 url = "contact/"
 
 [languages.es]
-languageName = ":colombia:"
+languageName = ":es:"
 title = "Juan Sebastian Quintero"
 
 [languages.es.params]
-author = "Juan Sebastian Quintero"
+author = "Juan Sebastian Quintero 🇨🇴"
 info = "Software Developer"
 description = "Sitio peronal de Juan Sebastian Quintero"
 keywords = "blog,desarrollo,software,personal"
@@ -167,10 +167,10 @@ name = "Blog"
 weight = 2
 url = "posts/"
 
-[[languages.es.menu.main]]
-name = "Proyectos"
-weight = 3
-url = "projects/"
+# [[languages.es.menu.main]]
+# name = "Proyectos"
+# weight = 3
+# url = "projects/"
 
 [[languages.es.menu.main]]
 name = "Contacto"
