@@ -13,24 +13,28 @@
     
 
     <meta name="author" content="Juan Sebastian Quintero">
-    <meta name="description" content="Sitio peronal de Juan Sebastian Quintero">
+    <meta name="description" content="Um guia de utilização de emojis com Hugo">
     <meta name="keywords" content="blog,desenvolvedor,pessoal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Juan Sebastian Quintero"/>
-<meta name="twitter:description" content="Sitio peronal de Juan Sebastian Quintero"/>
+<meta name="twitter:title" content="Suporte a Emojis"/>
+<meta name="twitter:description" content="Um guia de utilização de emojis com Hugo"/>
 
-    <meta property="og:title" content="Juan Sebastian Quintero" />
-<meta property="og:description" content="Sitio peronal de Juan Sebastian Quintero" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:site_name" content="Juan Sebastian Quintero" />
+    <meta property="og:title" content="Suporte a Emojis" />
+<meta property="og:description" content="Um guia de utilização de emojis com Hugo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/emoji-support/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-03-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-05T00:00:00+00:00" /><meta property="og:site_name" content="Juan Sebastian Quintero" />
 
 
 
-    <title>Juan Sebastian Quintero</title>
+    <title>
+  Suporte a Emojis · Juan Sebastian Quintero
+</title>
 
     
-      <link rel="canonical" href="/">
+      <link rel="canonical" href="/posts/emoji-support/">
     
 
     <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -61,7 +65,6 @@
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Juan Sebastian Quintero" />
     
 
     <meta name="generator" content="Hugo 0.85.0" />
@@ -125,7 +128,7 @@
                 
               
               <li class="navigation-item">
-                <a href="/en/">🇺🇸</a>
+                <a href="/en/posts/emoji-support/">🇺🇸</a>
               </li>
             
           
@@ -138,58 +141,67 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-    
-      
-        <div class="avatar"><img src="/images/avatar.png" alt="avatar"></div>
-      
-    
-    
-    <h1>Juan Sebastian Quintero</h1>
-    
-    <h2>Software Developer</h2>
-    
-    
-    <ul>
-      
-        
-          <li>
-            <a href="https://github.com/nullco/" aria-label="Github"   >
-              <i class="fa fa-github" aria-hidden="true"></i>
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="/posts/emoji-support/">
+              Suporte a Emojis
             </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://gitlab.com/nullco/" aria-label="Gitlab"   >
-              <i class="fa fa-gitlab" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://twitter.com/nullco/" aria-label="Twitter"   >
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://www.linkedin.com/in/jsquinteroa/" aria-label="LinkedIn"   >
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-    </ul>
-    
-  </div>
-</section>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2019-03-05T00:00:00Z'>
+                March 5, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              Un minuto de lectura
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/emoji/">emoji</a>
+    </span></div>
 
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Emojis podem ser ativados em um projeto Hugo de diversar formas.</p>
+<p>A função <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> pode ser chamada diretamente nos templates ou com <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>Para ativar os emojis globalmente, aplique <code>enableEmoji</code> com o valor <code>true</code> na <a href="https://gohugo.io/getting-started/configuration/">configuração</a> do seu site e então você poderá adicionar códigos de emoji diretamente nos arquivos de conteúdo. Por exemplo:</p>
+<!-- raw HTML omitted -->
+<p>O <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> é uma referência útil para identificar códigos de emojis.</p>
+<hr>
+<p><strong>Nota:</strong> Os passos anteriores ativam os caractéres e sequências de emoji do Padrão Unicode no Hugo, porém a renderização desses glifos depende do navegador e plataforma utilizada. Para escolher o estilo dos emojis você pode tanto usar um font de emoji de terceiros ou uma lista de fontes. Por exemplo:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}</code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
 
       </div>
 

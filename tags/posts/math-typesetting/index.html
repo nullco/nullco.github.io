@@ -13,24 +13,28 @@
     
 
     <meta name="author" content="Juan Sebastian Quintero">
-    <meta name="description" content="Sitio peronal de Juan Sebastian Quintero">
+    <meta name="description" content="Um guia rápido sobre utilizar KaTeX">
     <meta name="keywords" content="blog,desenvolvedor,pessoal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Juan Sebastian Quintero"/>
-<meta name="twitter:description" content="Sitio peronal de Juan Sebastian Quintero"/>
+<meta name="twitter:title" content="Configuração de Equações Matemáticas"/>
+<meta name="twitter:description" content="Um guia rápido sobre utilizar KaTeX"/>
 
-    <meta property="og:title" content="Juan Sebastian Quintero" />
-<meta property="og:description" content="Sitio peronal de Juan Sebastian Quintero" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:site_name" content="Juan Sebastian Quintero" />
+    <meta property="og:title" content="Configuração de Equações Matemáticas" />
+<meta property="og:description" content="Um guia rápido sobre utilizar KaTeX" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/math-typesetting/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-03-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-08T00:00:00+00:00" /><meta property="og:site_name" content="Juan Sebastian Quintero" />
 
 
 
-    <title>Juan Sebastian Quintero</title>
+    <title>
+  Configuração de Equações Matemáticas · Juan Sebastian Quintero
+</title>
 
     
-      <link rel="canonical" href="/">
+      <link rel="canonical" href="/posts/math-typesetting/">
     
 
     <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -61,7 +65,6 @@
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Juan Sebastian Quintero" />
     
 
     <meta name="generator" content="Hugo 0.85.0" />
@@ -125,7 +128,7 @@
                 
               
               <li class="navigation-item">
-                <a href="/en/">🇺🇸</a>
+                <a href="/en/posts/math-typesetting/">🇺🇸</a>
               </li>
             
           
@@ -138,58 +141,95 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-    
-      
-        <div class="avatar"><img src="/images/avatar.png" alt="avatar"></div>
-      
-    
-    
-    <h1>Juan Sebastian Quintero</h1>
-    
-    <h2>Software Developer</h2>
-    
-    
-    <ul>
-      
-        
-          <li>
-            <a href="https://github.com/nullco/" aria-label="Github"   >
-              <i class="fa fa-github" aria-hidden="true"></i>
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="/posts/math-typesetting/">
+              Configuração de Equações Matemáticas
             </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://gitlab.com/nullco/" aria-label="Gitlab"   >
-              <i class="fa fa-gitlab" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://twitter.com/nullco/" aria-label="Twitter"   >
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://www.linkedin.com/in/jsquinteroa/" aria-label="LinkedIn"   >
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-    </ul>
-    
-  </div>
-</section>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2019-03-08T00:00:00Z'>
+                March 8, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              Un minuto de lectura
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
 
+      <div>
+        
+        <p>Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.</p>
+<p>Nesse exemplo usaremos o <a href="https://katex.org/">KaTeX</a>.</p>
+<ul>
+<li>Crie um partial template em <code>/layouts/partials/math.html</code></li>
+<li>Dentro, utilize o <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> ou sirva os scripts localmente.</li>
+<li>Inclua o partial nos seus templates da seguinte forma:</li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">{{ <span style="font-weight:bold">if</span> or .Params.math .Site.Params.math }}
+{{ partial <span style="font-style:italic">&#34;math.html&#34;</span> . }}
+{{ end }}
+</code></pre></div><ul>
+<li>Para ativar o KaTex globalmente defina o parâmetro <code>math</code> como <code>true</code> na confgiuração do projeto</li>
+<li>Para ativar o KaTex em páginas específicas inclua o parâmetro <code>math: true</code> nos arquivos de conteúdo</li>
+</ul>
+<p><strong>Nota:</strong> Use a referência online <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a> como base para criar notações matemáticas.</p>
+
+<h3 id="examples">
+  Examples
+  <a class="heading-link" href="#examples">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+
+<p>Notação em bloco:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
 
       </div>
 
