@@ -13,4 +13,4 @@ categories = [
 aliases = ["cheatsheet"]
 +++
 
-{{< gist nullco 4428e82826416553d03d934bb11264a2 vim_cheatsheet.md >}}
+{{< gist nullco 4428e82826416553d03d934bb11264a2 >}}
