@@ -87,7 +87,8 @@ stylesrc = [
   "'unsafe-inline'",
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/",
-  "https://gist.github.com"
+  "https://gist.github.com",
+  "https://github.githubassets.com"
 ]
 scriptsrc = [
   "'self'", 
