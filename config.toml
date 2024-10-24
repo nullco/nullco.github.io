@@ -77,9 +77,18 @@ customJS = []
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
-fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+fontsrc = ["'self'", 
+  "https://fonts.gstatic.com", 
+  "https://cdn.jsdelivr.net/",
+  "https://gist.github.com",
+  "https://github.githubassets.com"
+]
 formaction = ["'self'"]
-framesrc = ["'self'", "https://gist.github.com"]
+framesrc = [
+  "'self'", 
+  "https://gist.github.com",
+  "https://github.githubassets.com"
+]
 imgsrc = ["'self'"]
 objectsrc = ["'none'"]
 stylesrc = [
@@ -94,7 +103,8 @@ scriptsrc = [
   "'self'", 
   "'unsafe-inline'", 
   "https://www.google-analytics.com", 
-  "https://gist.github.com"
+  "https://gist.github.com",
+  "https://github.githubassets.com"
 ]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
