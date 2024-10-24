@@ -1,3 +1,0 @@
-/*
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://gist.github.com; style-src 'self' https://gist.github.com; frame-src 'self' https://gist.github.com
-
