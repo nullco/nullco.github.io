@@ -1,9 +1,9 @@
 baseURL = "/"
-title = "Juan Sebastian Quintero"
+title = "null.co"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "es"
-paginate = 20
+pagination.pagerSize = 20
 pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -12,8 +12,8 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Juan Sebastian Quintero"
-description = "Juanse's personal website"
+author = "null.co"
+description = "null.co's personal website"
 keywords = "blog,developer,personal"
 info = ["Software Developer"]
 avatarURL = "images/avatar.png"
@@ -140,66 +140,24 @@ icon = "fa fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/jsquinteroa/"
 
-[languages.en]
-languageName = ":uk:"
-
-[[languages.en.menu.main]]
-name = "Intro"
-weight = 1
-url = "about/"
-
-[[languages.en.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
-
-[[languages.en.menu.main]]
-name = "Cheatsheets"
-weight = 4
-url = "cheatsheets/"
-
-[[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
-
 [languages.es]
 languageName = ":es:"
-title = "Juan Sebastian Quintero"
+title = "null.co"
 
 [languages.es.params]
-author = "Juan Sebastian Quintero 🇨🇴"
+author = "null.co 🇨🇴"
 info = "Software Developer"
-description = "Sitio peronal de Juan Sebastian Quintero"
+description = "Sitio peronal"
 keywords = "blog,desarrollo,software,personal"
 footerContent = ""
 
 [[languages.es.menu.main]]
-name = "Intro"
-weight = 1
-url = "about/"
-
-[[languages.es.menu.main]]
 name = "Blog"
-weight = 2
+weight = 1
 url = "posts/"
 
 [[languages.es.menu.main]]
-name = "Proyectos"
-weight = 3
-url = "projects/"
-
-[[languages.es.menu.main]]
 name = "Cheatsheets"
-weight = 4
+weight = 2
 url = "cheatsheets/"
 
-[[languages.es.menu.main]]
-name = "Contacto"
-weight = 5
-url = "contact/"
